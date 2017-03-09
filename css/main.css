@@ -4,6 +4,10 @@
    Author's custom styles
    ========================================================================== */
 
+html{
+    overflow-x: hidden;
+}
+
 body{
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -12,6 +16,33 @@ body{
     overflow-x: hidden;
     letter-spacing: 1.1px;
 }
+
+
+.sec-title{
+    width: 550px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px 0 20px;
+    max-width: 100%;
+    color: #565a5c;
+}
+
+.primary-btn{
+    background: #00bfe9;
+    max-width: 100%;
+    width: 300px;
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.text-muted{
+    color: #b1b0b0;
+}
+
 
 /* ==========================================================================
                                 Hero Section
@@ -152,6 +183,21 @@ body{
     padding: 30px;
     text-align: center;
     color: #fff;
+    display: block;
+    text-decoration: none;
+    border: none;
+}
+
+.cta-strip:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+.cta-strip:focus{
+    outline: none;
+    color: #fff;
+    outline-offset: 0;
+    text-decoration: none;
 }
 
 .cta-strip h2{
@@ -160,9 +206,13 @@ body{
 
 .cta-strip small{
     color: #fff;
-    margin-left: 50px;
 }
 
+
+.cta-strip small a{
+    text-decoration: none;
+    color: #fff;
+}
 
 
 /* ==========================================================================
@@ -171,12 +221,262 @@ body{
 
 
 #our-services{
-    padding: 30px;
+    padding: 5% 5%;
+}
+
+
+#our-services ul  {
+    padding: 0;
+    text-align: center;
+}
+
+
+#our-services ul li {
+   list-style: none;
+    display: inline-block;
+    text-align: center;
 }
 
 
 
 
+#our-services ul li .service {
+    width: 300px;
+    height: 350px;
+    margin: 20px 20px auto;
+    border: 1px solid #eee;
+    display: -webkit-flex;
+    display: -moz-flex;
+        -webkit-justify-content: center;
+        -moz-justify-content: center;
+        justify-content: center;
+        -webkit-align-items: center;
+        -moz-align-items: center;
+        align-items: center;
+    box-shadow: 0px 1px 4px 1px #eee;
+}
+
+#our-services ul li .service.active{
+    background-color: #00bfe9;
+    color: #fff;
+}
+
+
+#our-services ul li .service i{
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    background-color: #ecedef;
+    border-radius: 50%;
+    font-size: 3.5rem;
+    color: #00bfe9;
+}
+
+#our-services ul li .service i.active{
+    background-color: #fff;
+}
+
+
+/* ==========================================================================
+                               Features Section
+   ========================================================================== */
+
+#features .container-fluid {
+    background-color: #f2f1f1;
+
+}
+
+
+#features .container-fluid .features-heading{
+    display: -webkit-flex;
+    display: -moz-flex;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    align-items: center;
+    background-color: #f2f1f1;
+    height: 430px;
+}
+
+#features .container-fluid .features-heading {
+    padding: 30px;
+}
+
+#features .container-fluid .features-heading h3{
+    font-weight: 300;
+    margin: 20px 0;
+}
+
+#features .container-fluid .features-heading p{
+    margin: 30px 0;
+}
+
+
+#features .container-fluid .sub-features{
+    background-color: #00bfe9;
+    margin: 0px -15px;
+    padding: 25px;
+    color: #fff;
+
+}
+
+#features .container-fluid .sub-features .media{
+    margin: 20px 0;
+}
+
+#features .container-fluid .sub-features .media .media-left a{
+    font-size: 4rem;
+    color: #fff;
+
+}
+
+#features .container-fluid .sub-features .media h4{
+    font-size: 2rem;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+#features .container-fluid .sub-features .media p{
+    font-size: 1.4rem;
+
+}
+
+
+/* ==========================================================================
+                               Work Section
+   ========================================================================== */
+
+#work-section{
+    padding: 5% 5%;
+}
+
+#work-section .container{
+    padding: 0% 15%;
+}
+
+#work-section .work-gallery a{
+    display: block;
+    max-width: 100%;
+    overflow: hidden;
+    transition: all .5s;
+    zoom: 100%;
+}
+
+#work-section .work-gallery img{
+    transition: all .5s;
+}
+
+
+#work-section .work-gallery a :hover{
+    transform: scale(1.1);
+    display: block;
+}
 
 
 
+/* ==========================================================================
+                               CTA background
+   ========================================================================== */
+
+.cta-bg{
+    background: url('../img/cta-bg.png') center no-repeat;
+    background-size: cover;
+    display: -webkit-flex;
+    display: -moz-flex;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    align-items: center;
+    height: 400px;
+    text-align: center;
+    color: #fff;
+}
+
+
+.cta-txt{
+    width: 750px;
+    max-width: 100%;
+}
+
+.cta-txt h2{
+    text-transform: uppercase;
+    font-weight: 300;
+    margin: 40px 0;
+}
+
+
+
+/* ==========================================================================
+                               CTA background
+   ========================================================================== */
+
+#pricing-table{
+    padding: 4% 4%;
+}
+
+
+#pricing-table ul {
+    padding: 0;
+    text-align: center;
+}
+
+#pricing-table ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+#pricing-table ul li .pricing-box {
+    width: 330px;
+    height: 500px;
+    margin: 20px 20px auto;
+    border: 1px solid #eee;
+    box-shadow: 0 1px 4px 1px #eee;
+    display: -webkit-flex;
+    display: -moz-flex;
+        -webkit-justify-content: center;
+        -moz-justify-content: center;
+        justify-content: center;
+        -webkit-align-items: center;
+        -moz-align-items: center;
+        align-items: center;
+}
+
+#pricing-table ul li .pricing-box.active {
+    background-color: #00bfe9;
+    color: #fff;
+}
+
+
+
+#pricing-table ul li .pricing-box button.active {
+    background-color: #fff;
+    color: #00bfe9;
+}
+
+
+
+#pricing-table ul li .pricing-box figcaption>p {
+    border-bottom: 1px solid #eee;
+    margin: 0;
+    line-height: 50px;
+}
+
+#pricing-table ul li .pricing-box button {
+    margin-top: 50px;
+    padding: 10px;
+}
+
+
+/* ==========================================================================
+                               Footer Section
+   ========================================================================== */
+
+#footer{
+    background-color: #00bfe9;
+    padding: 4% 4% 1% 4%;
+    color: #fff;
+}

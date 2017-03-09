@@ -16,6 +16,7 @@
 
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/swipebox.min.css">
 
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/main.css">
@@ -24,6 +25,8 @@
 
 
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
 </head>
 <body>
 <!--[if lt IE 8]>
@@ -87,7 +90,7 @@
             <div class="col-md-6">
                 <h1 class="main-title">Increase
                     <span>Chances of </span>
-                            Getting
+                    Getting
                     <span> A Job By 10X</span>
 
                 </h1>
@@ -110,10 +113,10 @@
                                         CTA Strip
 --------------------------------------------------------------------------------------------------------------->
 
-<div class="cta-strip">
+<a href="tel:9999999999" class="cta-strip">
     <h2>Talk To Our Experts Call
-        <small><i class="fa fa-phone"></i> +91 9999999999</small> </h2>
-</div>
+        <small> <i class="fa fa-phone"></i> +91 9999999999 </small> </h2>
+</a>
 
 
 
@@ -125,50 +128,64 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h2 class="text-center section-title">Our Services</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi consectetur culpa ea esse eveniet facilis hic illo, itaque iusto, maiores nobis odio quae quaerat quia rem sit velit, veritatis. Quasi?</p>
+                <div class="sec-title">
+                    <h2 class="text-center">Our Services</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi consectetur culpa ea esse eveniet </p>
+                </div>
 
                 <ul>
 
                     <li>
-                        <figure>
-                            <i class="fa fa-check-circle"></i>
-                            <figcaption>
-                                <h3>Lorem Ipsum</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam enim explicabo facere in iure libero magni maiores natus, perspiciatis repellendus, sapiente sed sint suscipit. Aliquid doloribus eligendi ipsum laboriosam ratione.</p>
-                            </figcaption>
-                        </figure>
+                        <div class="service">
+                            <figure>
+                                <i class="fa fa-tasks"></i>
+                                <figcaption>
+                                    <h3>Lorem Ipsum</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam enim explicabo.</p>
+                                </figcaption>
+
+                            </figure>
+                        </div>
+
                     </li>
 
 
                     <li>
-                        <figure>
-                            <i class="fa fa-tasks"></i>
-                            <figcaption>
-                                <h3>Lorem Ipsum</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam enim explicabo facere in iure libero magni maiores natus, perspiciatis repellendus, sapiente sed sint suscipit. Aliquid doloribus eligendi ipsum laboriosam ratione.</p>
-                            </figcaption>
-                        </figure>
+                        <div class="service active">
+                            <figure>
+                                <i class="fa fa-tasks active"></i>
+                                <figcaption>
+                                    <h3>Lorem Ipsum</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam enim explicabo.</p>
+                                </figcaption>
+
+                            </figure>
+                        </div>
+
                     </li>
 
 
 
                     <li>
-                        <figure>
-                            <i class="fa fa-home"></i>
-                            <figcaption>
-                                <h3>Lorem Ipsum</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam enim explicabo facere in iure libero magni maiores natus, perspiciatis repellendus, sapiente sed sint suscipit. Aliquid doloribus eligendi ipsum laboriosam ratione.</p>
-                            </figcaption>
-                        </figure>
+                        <div class="service">
+                            <figure>
+                                <i class="fa fa-tasks"></i>
+                                <figcaption>
+                                    <h3>Lorem Ipsum</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam enim explicabo.</p>
+                                </figcaption>
+
+                            </figure>
+                        </div>
+
                     </li>
 
 
 
-                    </ul>
-                </div> <!--End col-md-12 here-->
-            </div><!--End row here-->
-        </div> <!--End Container here-->
+                </ul>
+            </div> <!--End col-md-12 here-->
+        </div><!--End row here-->
+    </div> <!--End Container here-->
 </section>
 
 
@@ -181,121 +198,127 @@
         <div class="row">
             <div class="col-md-5">
                 <div class="features-heading">
-                    <h3>Manfra Resume help you <br>
-                    Land That Dream Job</h3>
+                    <div>
+                        <h3>Manfra Resume help you <br>
+                            Land That Dream Job</h3>
 
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eligendi esse fuga illum laudantium nihil perspiciatis quae? A cum dignissimos dolor eligendi est fugit hic minus natus, possimus similique tempora!</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eligendi esse fuga illum.</p>
+
+                    </div>
 
                 </div>
 
 
             </div>
 
-            <div class="col-md-7 sub-features">
-                <div class="row">
+            <div class="col-md-7 ">
+                <div class="sub-features">
+                    <div class="row">
 
-                    <div class="col-md-6">
-                        <div class="media">
-                            <div class="media-left">
-                                <a href="#">
-                                    <img class="media-object" src="..." alt="...">
-                                </a>
+                        <div class="col-md-6">
+                            <div class="media">
+                                <div class="media-left">
+                                    <a href="#">
+                                        <i class="fa fa-tags"></i>
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">Media heading</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                                </div>
                             </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">Media heading</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis possimus, reiciendis. Accusantium cupiditate dolorem.</p>
-                            </div>
+
                         </div>
+
+                        <div class="col-md-6">
+                            <div class="media">
+                                <div class="media-left">
+                                    <a href="#">
+                                        <i class="fa fa-tags"></i>
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">Media heading</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                                </div>
+                            </div>
+
+                        </div>
+
 
                     </div>
 
-                    <div class="col-md-6">
-                        <div class="media">
-                            <div class="media-left">
-                                <a href="#">
-                                    <img class="media-object" src="..." alt="...">
-                                </a>
+                    <div class="row">
+
+                        <div class="col-md-6">
+                            <div class="media">
+                                <div class="media-left">
+                                    <a href="#">
+                                        <i class="fa fa-tags"></i>
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">Media heading</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                                </div>
                             </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">Media heading</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis possimus, reiciendis. Accusantium cupiditate dolorem.</p>
-                            </div>
+
                         </div>
+
+                        <div class="col-md-6">
+                            <div class="media">
+                                <div class="media-left">
+                                    <a href="#">
+                                        <i class="fa fa-tags"></i>
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">Media heading</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+
+                        </div>
+
 
                     </div>
 
+                    <div class="row">
 
+                        <div class="col-md-6">
+                            <div class="media">
+                                <div class="media-left">
+                                    <a href="#">
+                                        <i class="fa fa-tags"></i>
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">Media heading</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis.</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="media">
+                                <div class="media-left">
+                                    <a href="#">
+                                        <i class="fa fa-tags"></i>
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">Media heading</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
                 </div>
 
-                <div class="row">
-
-                    <div class="col-md-6">
-                        <div class="media">
-                            <div class="media-left">
-                                <a href="#">
-                                    <img class="media-object" src="..." alt="...">
-                                </a>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">Media heading</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis possimus, reiciendis. Accusantium cupiditate dolorem.</p>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="col-md-6">
-                        <div class="media">
-                            <div class="media-left">
-                                <a href="#">
-                                    <img class="media-object" src="..." alt="...">
-                                </a>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">Media heading</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis possimus, reiciendis. Accusantium cupiditate dolorem.</p>
-                            </div>
-                        </div>
-
-                    </div>
-
-
-                </div>
-
-                <div class="row">
-
-                    <div class="col-md-6">
-                        <div class="media">
-                            <div class="media-left">
-                                <a href="#">
-                                    <img class="media-object" src="..." alt="...">
-                                </a>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">Media heading</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis possimus, reiciendis. Accusantium cupiditate dolorem.</p>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="col-md-6">
-                        <div class="media">
-                            <div class="media-left">
-                                <a href="#">
-                                    <img class="media-object" src="..." alt="...">
-                                </a>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">Media heading</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis possimus, reiciendis. Accusantium cupiditate dolorem.</p>
-                            </div>
-                        </div>
-
-                    </div>
-
-
-                </div>
 
             </div>
 
@@ -310,18 +333,45 @@
 <section id="work-section">
     <div class="container">
         <div class="row">
-            <h2 class="section-title">Sample Work</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, dolorem et fugit</p>
+            <div class="sec-title">
+                <h2 class="text-center">Sample Work</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi consectetur culpa ea esse eveniet </p>
+            </div>
 
             <div class="col-md-6">
-                <img src="img/work/4.jpg" alt="" class="img-responsive">
-                <img src="img/work/2.jpg" alt="" class="img-responsive">
+                <div class="work-gallery">
+                    <a href="img/work/4.jpg" class="swipebox" title="My Caption">
+                        <img src="img/work/4.jpg" alt="image" width="100%">
+                    </a>
+
+                    <a href="img/work/3.jpg" class="swipebox" title="My Caption">
+                        <img src="img/work/3.jpg" alt="image" width="100%">
+                    </a>
+                </div>
+
+
+
+
+
+
+
 
             </div>
 
             <div class="col-md-6">
-                <img src="img/work/1.jpg" alt="" class="img-responsive">
-                <img src="img/work/3.jpg" alt="" class="img-responsive">
+
+                <div class="work-gallery">
+                    <a href="img/work/2.jpg" class="swipebox" title="My Caption">
+                        <img src="img/work/2.jpg" alt="image " width="100%">
+                    </a>
+
+                    <a href="img/work/1.jpg" class="swipebox" title="My Caption">
+                        <img src="img/work/1.jpg" alt="image" width="100%">
+                    </a>
+                </div>
+
+
+
 
             </div>
 
@@ -331,12 +381,170 @@
 </section>
 
 
+<!--------------------------------------------------------------------------------------------------------------
+                                      Testimonial Section
+--------------------------------------------------------------------------------------------------------------->
+
+<section id="testimonial">
+    <div class="container">
+
+    </div>
+</section>
 
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+
+<!--------------------------------------------------------------------------------------------------------------
+                                       CTA Background Section
+--------------------------------------------------------------------------------------------------------------->
+
+<section id="cta">
+    <div class="cta-bg">
+        <div class="cta-txt">
+            <h2>Manfra Resume For Every Job Profile</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis debitis dolorum itaque nemo nostrum odio possimus</p>
+
+            <button class="primary-btn">Request a Callback</button>
+
+        </div>
+    </div>
+
+</section>
+
+
+
+<!--------------------------------------------------------------------------------------------------------------
+                                       Pricing Table Section
+--------------------------------------------------------------------------------------------------------------->
+
+<section id="pricing-table">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="sec-title">
+                    <h2 class="text-center">Pricing Table</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi consectetur culpa ea esse eveniet </p>
+
+                </div>
+
+
+                <ul>
+                    <li>
+                        <div class="pricing-box">
+                            <figure>
+                                <h3>Fresher</h3>
+                                <p>0-1 Year Experience</p>
+                                <h3 ><i class="fa fa-inr"></i> <del>1999</del></h3>
+
+                                <h2 style="color: #00bfe9; font-size: 5rem;"><i class="fa fa-inr"></i> 999</h2>
+
+                                <figcaption>
+                                    <p class="text-muted">Impact Resume</p>
+                                    <p class="text-muted">2 Working Days</p>
+                                    <p class="text-muted">Our Call +91-9999999999</p>
+
+                                    <button class="primary-btn">Request A Call Back</button>
+                                </figcaption>
+
+                            </figure>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="pricing-box active">
+                            <figure>
+                                <h3>Fresher</h3>
+                                <p>0-1 Year Experience</p>
+                                <h3><i class="fa fa-inr"></i> <del>1999</del></h3>
+
+                                <h2 style="font-size: 5rem;"><i class="fa fa-inr"></i> 999</h2>
+
+                                <figcaption>
+                                    <p>Impact Resume</p>
+                                    <p>2 Working Days</p>
+                                    <p>Our Call +91-9999999999</p>
+
+                                    <button class="primary-btn active">Request A Call Back</button>
+                                </figcaption>
+
+                            </figure>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="pricing-box">
+                            <figure>
+                                <h3>Fresher</h3>
+                                <p>0-1 Year Experience</p>
+                                <h3><i class="fa fa-inr"></i> <del>1999</del></h3>
+
+                                <h2 style="color: #00bfe9; font-size: 5rem;"><i class="fa fa-inr"></i> 999</h2>
+
+                                <figcaption>
+                                    <p class="text-muted">Impact Resume</p>
+                                    <p class="text-muted">2 Working Days</p>
+                                    <p class="text-muted">Our Call +91-9999999999</p>
+
+                                    <button class="primary-btn">Request A Call Back</button>
+                                </figcaption>
+
+                            </figure>
+                        </div>
+                    </li>
+
+
+                </ul>
+
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--------------------------------------------------------------------------------------------------------------
+                                       Footer Section
+--------------------------------------------------------------------------------------------------------------->
+
+<section id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <h3>About us</h3>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium architecto commodi, doloremque earum eius eos illo itaque iure libero numquam quidem, quos veniam voluptas? Aperiam dolorem facilis ipsam porro sequi?</p>
+
+            </div>
+
+            <div class="col-md-4">
+                <h3>Contact us</h3>
+                <p>A-36 Sector 4</p>
+                <p>Noida, Uttar Pradesh</p>
+                <p>India - 201301</p>
+                <p>example@example.com</p>
+
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row copyright">
+            <div class="col-md-12 text-center">
+                <p>&copy; 2017 Scaledesk Web Studio Pvt Ltd</p>
+
+            </div>
+        </div>
+
+
+    </div>
+</section>
+
+
+
 
 <script src="js/vendor/bootstrap.min.js"></script>
+
+<script src="js/vendor/jquery.swipebox.min.js"></script>
 
 <script src="js/main.js"></script>
 
@@ -349,5 +557,16 @@
         r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
     ga('create','UA-XXXXX-X','auto');ga('send','pageview');
 </script>
+
+
+<script type="text/javascript">
+    ;( function( $ ) {
+
+        $( '.swipebox' ).swipebox();
+
+    } )( jQuery );
+</script>
+
+
 </body>
 </html>
