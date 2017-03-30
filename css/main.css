@@ -295,7 +295,7 @@ body{
                                Features Section
    ========================================================================== */
 
-#features .container-fluid {
+#featuresmain .container-fluid {
   /*  background-color: #f2f1f1;*/
 
 }
@@ -306,7 +306,7 @@ body{
 
     margin: 0 auto;
 }
-#features .container-fluid .features-heading{
+#featuresmain .container-fluid .features-heading{
     display: -webkit-flex;
     display: -moz-flex;
     -webkit-justify-content: center;
@@ -319,45 +319,45 @@ body{
     height: 430px;
 }
 
-#features .container-fluid .features-heading {
+#featuresmain .container-fluid .features-heading {
     padding: 30px;
 }
 
-#features .container-fluid .features-heading h3{
+#featuresmain .container-fluid .features-heading h3{
     font-weight: 300;
     margin: 20px 0;
 }
 
-#features .container-fluid .features-heading p{
+#featuresmain .container-fluid .features-heading p{
     margin: 30px 0;
 }
 
 
-#features .container-fluid .sub-features{
-   /* background-color: #00bfe9;*/
-    margin: 30px -15px;
+#featuresmain .container-fluid .sub-features{
+    background-color: #00bfe9;
+    margin: 0 -15px;
     padding: 25px;
     color: #fff;
 
 }
 
-#features .container-fluid .sub-features .media{
+#featuresmain .container-fluid .sub-features .media{
     margin: 20px 0;
 }
 
-#features .container-fluid .sub-features .media .media-left a{
+#featuresmain .container-fluid .sub-features .media .media-left a{
     font-size: 4rem;
     color: #fff;
 
 }
 
-#features .container-fluid .sub-features .media h4{
+#featuresmain .container-fluid .sub-features .media h4{
     font-size: 2rem;
     font-weight: 300;
     text-transform: uppercase;
 }
 
-#features .container-fluid .sub-features .media p{
+#featuresmain .container-fluid .sub-features .media p{
     font-size: 1.4rem;
 
 }
@@ -504,6 +504,70 @@ body{
 
 
 /* Slider */
+
+
+
+.img-custom{
+    height: 80px;
+    width: 80px!important;
+
+    margin: 0 auto;
+}
+#testimonial .container-fluid .features-heading{
+    display: -webkit-flex;
+    display: -moz-flex;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    align-items: center;
+    background-color: #f2f1f1;
+    height: 430px;
+}
+
+#testimonial .container-fluid .features-heading {
+    padding: 30px;
+}
+
+#testimonial .container-fluid .features-heading h3{
+    font-weight: 300;
+    margin: 20px 0;
+}
+
+#testimonial .container-fluid .features-heading p{
+    margin: 30px 0;
+}
+
+
+#testimonial .container-fluid .sub-features{
+    /* background-color: #00bfe9;*/
+    margin: 30px -15px;
+    padding: 25px;
+    color: #fff;
+
+}
+
+#testimonial .container-fluid .sub-features .media{
+    margin: 20px 0;
+}
+
+#testimonial .container-fluid .sub-features .media .media-left a{
+    font-size: 4rem;
+    color: #fff;
+
+}
+
+#testimonial .container-fluid .sub-features .media h4{
+    font-size: 2rem;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+#testimonial .container-fluid .sub-features .media p{
+    font-size: 1.4rem;
+
+}
 
 
 .owl-carousel .owl-dot, .owl-carousel .owl-nav .owl-next, .owl-carousel .owl-nav .owl-prev{
@@ -658,7 +722,9 @@ body{
 
 /*////Fonts////*/
 
-
+.f-blue{
+    color: #00bfe9;
+}
 .f-12{
     font-size: 12px!important;
 }
