@@ -300,7 +300,12 @@ body{
 
 }
 
+.img-custom{
+    height: 80px;
+    width: 80px!important;
 
+    margin: 0 auto;
+}
 #features .container-fluid .features-heading{
     display: -webkit-flex;
     display: -moz-flex;
@@ -499,6 +504,11 @@ body{
 
 
 /* Slider */
+
+
+.owl-carousel .owl-dot, .owl-carousel .owl-nav .owl-next, .owl-carousel .owl-nav .owl-prev{
+    color:#333;
+}
 
 .carousel-inner{
 
@@ -709,3 +719,16 @@ body{
 
 
 /*///ends here///*/
+
+
+.owl-prev{
+    position: absolute;
+    left: -35%;
+    bottom: 15%;
+}
+
+.owl-next{
+    position: absolute;
+    left: -32%;
+    bottom: 15%;
+}
