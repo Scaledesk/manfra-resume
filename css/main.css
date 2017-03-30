@@ -334,8 +334,8 @@ body{
 
 
 #features .container-fluid .sub-features{
-    background-color: #00bfe9;
-    margin: 0px -15px;
+   /* background-color: #00bfe9;*/
+    margin: 30px -15px;
     padding: 25px;
     color: #fff;
 
@@ -720,15 +720,19 @@ body{
 
 /*///ends here///*/
 
+.features{
+    background: -webkit-linear-gradient(left ,#f2f2f2 39%, #00bfe9 1%);
 
+
+}
 .owl-prev{
     position: absolute;
-    left: -35%;
-    bottom: 15%;
+    left: -22%;
+    bottom: 10%;
 }
 
 .owl-next{
     position: absolute;
-    left: -32%;
-    bottom: 15%;
+    left: -18%;
+    bottom: 10%;
 }

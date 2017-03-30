@@ -10,14 +10,3 @@ $(document).ready(function(){
 });
 */
 
-
-$(document).ready(function(){
-    $('.owl-carousel').owlCarousel({
-        nav:true,
-        navigationText: [
-            "<i class='fa fa-chevron-left'></i>",
-            "<i class='fa fa-chevron-right'></i>"
-        ]
-
-});
-});
