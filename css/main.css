@@ -291,6 +291,49 @@ body{
 }
 
 
+
+
+/* ==========================================================================
+                            Process
+   ========================================================================== */
+
+
+#our-process{
+    padding: 5% 5%;
+}
+
+
+.process-icon{
+    font-size: 48px;
+    height: 110px;
+    width: 110px;
+    margin: 0 auto;
+    border-radius: 100%;
+    line-height: 100px;
+    text-align: center;
+    background: #ffffff;
+    color: #00bfe9;
+    border: 3px solid #ffffff;
+    box-shadow: inset 0 0 0 5px #f2f2f2;
+    -webkit-box-shadow: inset 0 0 0 5px #f2f2f2;
+    -webkit-transition: 500ms;
+    -moz-transition: 500ms;
+    -o-transition: 500ms;
+    transition: 500ms;
+
+}
+
+
+.process-icon:hover{
+
+    background: #00bfe9;
+    color: #fff;
+    box-shadow: inset 0 0 0 5px #00bfe9;
+    -webkit-box-shadow: inset 0 0 0 5px #00bfe9;
+    border: 3px solid #00bfe9;
+}
+
+
 /* ==========================================================================
                                Features Section
    ========================================================================== */
@@ -604,6 +647,63 @@ body{
 }
 
 
+/* ==========================================================================
+                             Testimonial
+   ========================================================================== */
+.features{
+    background: -webkit-linear-gradient(left ,#f2f2f2 39%, #00bfe9 1%);
+
+
+}
+.owl-prev{
+    position: absolute;
+    left: -22%;
+    bottom: 10%;
+}
+
+.owl-next{
+    position: absolute;
+    left: -18%;
+    bottom: 10%;
+}
+
+
+
+/* ==========================================================================
+                            why resume
+   ========================================================================== */
+
+#resume-writing{
+    background: #e5e3e4;
+
+   margin: 5% 0 0 0;
+}
+
+
+.circle-icon-frame{
+    padding: 22px;
+
+
+}
+
+.text-icon{
+    color: #00bfe9;
+    font-size: 44px;
+    font-weight: 900;
+}
+
+
+.fa-bar-chart{
+    color: #ff5519;
+}
+
+.fa-binoculars{
+    color: #fcca27;
+}
+
+.fa-book{
+    color: #73d425;
+}
 
 /* ==========================================================================
                                helper classes
@@ -706,6 +806,21 @@ body{
     padding: 10px!important;
 }
 
+.p-20{
+    padding: 20px!important;
+}
+
+
+.p-30{
+    padding: 30px!important;
+}
+
+
+.p-40{
+    padding: 40px!important;
+}
+
+
 .p-t-40{
     padding-top: 40px!important;
 }
@@ -717,7 +832,7 @@ body{
 
 /*///ends here////*/
 
-
+/*resume writing*/
 
 
 /*////Fonts////*/
@@ -727,6 +842,10 @@ body{
 }
 .f-12{
     font-size: 12px!important;
+}
+
+.f-15{
+    font-size: 15px!important;
 }
 
 
@@ -786,19 +905,3 @@ body{
 
 /*///ends here///*/
 
-.features{
-    background: -webkit-linear-gradient(left ,#f2f2f2 39%, #00bfe9 1%);
-
-
-}
-.owl-prev{
-    position: absolute;
-    left: -22%;
-    bottom: 10%;
-}
-
-.owl-next{
-    position: absolute;
-    left: -18%;
-    bottom: 10%;
-}
