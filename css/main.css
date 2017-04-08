@@ -48,6 +48,53 @@ body{
                                 Hero Section
    ========================================================================== */
 
+.nav-custom{
+    height: 80px;
+    color: #fff!important;
+    border: none;
+    background-image: none;
+    background: rgba(0, 0, 0, 0.13);
+}
+
+.nav-custom .navbar-nav>li>a{
+    color: #fff;
+}
+
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.active>a{
+    background-image:none!important;
+    color:#fff;
+     box-shadow: none!important;
+    background-color: transparent;
+ /*   border-bottom: 1px solid #00bfe9;*/
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
+    background-image:none!important;
+    color:#fff;
+    background-color: transparent;
+}
+
+
+.activescroll{
+    background: #f2f1f1!important;
+    color: #00bfe9!important;
+}
+
+.activescroll .navbar-nav li a{
+    color: #00bfe9;
+
+}
+
+.activescroll .navbar-nav>.active>a{
+    color:#333
+}
+
+.nav>li{
+    padding-left: 20px;
+    color: #00bfe9!important;
+}
+
 #hero-section{
     background: url('../img/hero-banner.jpg') center no-repeat;
     background-size: cover;
@@ -63,6 +110,11 @@ body{
              align-items: center;
 
 
+}
+
+.input-file {
+    padding: 12px 1.5em 0 2.5em!important;
+    line-height: 0px!important;
 }
 
 
@@ -262,6 +314,17 @@ body{
     box-shadow: 0px 1px 4px 1px #eee;
 }
 
+#our-services ul li .service:hover{
+     background-color: #00bfe9;
+     color: #fff;
+
+}
+
+#our-services ul li .service:hover i{
+    background-color: #fff;
+}
+
+
 #our-services ul li .service h3{
     font-size: 16px;
 }
@@ -270,10 +333,12 @@ body{
     font-size: 13px;
 }
 
+/*
 #our-services ul li .service.active{
     background-color: #00bfe9;
     color: #fff;
 }
+*/
 
 
 #our-services ul li .service i{
@@ -286,9 +351,9 @@ body{
     color: #00bfe9;
 }
 
-#our-services ul li .service i.active{
+/*#our-services ul li .service i.active{
     background-color: #fff;
-}
+}*/
 
 
 
@@ -507,6 +572,18 @@ body{
         align-items: center;
 }
 
+#pricing-table ul li .pricing-box:hover{
+    background-color: #00bfe9;
+    color: #fff;
+}
+
+#pricing-table ul li .pricing-box:hover button{
+    background-color: #fff;
+    color: #00bfe9;
+}
+
+
+
 #pricing-table ul li .pricing-box.active {
     background-color: #00bfe9;
     color: #fff;
@@ -514,10 +591,13 @@ body{
 
 
 
+
+/*
 #pricing-table ul li .pricing-box button.active {
     background-color: #fff;
     color: #00bfe9;
 }
+*/
 
 
 
@@ -526,6 +606,11 @@ body{
     margin: 0;
     line-height: 50px;
 }
+
+#pricing-table ul li .pricing-box:hover figcaption>p{
+    color: #fff;
+}
+
 
 #pricing-table ul li .pricing-box button {
     margin-top: 50px;
@@ -821,9 +906,26 @@ body{
 }
 
 
+.p-t-15{
+    padding-top: 15px!important;
+}
+.p-t-20{
+    padding-top: 20px!important;
+}
+
 .p-t-40{
     padding-top: 40px!important;
 }
+
+.p-b-20{
+    padding-bottom: 40px!important;
+}
+
+.p-b-30{
+    padding-bottom: 30px!important;
+}
+
+
 
 .p-b-40{
     padding-bottom: 40px!important;
